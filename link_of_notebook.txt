@@ -1,0 +1,1 @@
+http://35.232.18.220:8888/notebooks/fruit-detection/fruit-detection.ipynb
