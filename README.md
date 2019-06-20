@@ -32,12 +32,12 @@ Request JSON body:
 Response JSON body:
 ```json
   {
-    "image": "Content in Base64 format",
-    "name": "Image name"
-    "content": "Array of the predicted classes and probability percentage"
+    "image" : "Content in Base64 format",
+    "name" : "Image name"
+    "content" : "Array of the predicted classes and probability percentage"
     [
       {
-        "name": "predicted class",
+        "name" : "predicted class",
         "percentage_probability": float
       }
     ]
