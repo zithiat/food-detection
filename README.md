@@ -22,12 +22,15 @@ Header:
   Content-Type:application/json
 
 Request JSON body:
+```json
   {
 	"image": "Content in Base64 format",
 	"name": "Image name"
   }
+```
   
 Response JSON body:
+```json
   {
     "image": "Content in Base64 format",
     "name": "Image name"
@@ -39,3 +42,4 @@ Response JSON body:
       }
     ]
   }
+```
