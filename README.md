@@ -10,3 +10,32 @@ https://github.com/zithiat/food-detection
 
 Notebook site:
 http://35.232.18.220:8888/notebooks/fruit-detection/fruit-detection.ipynb
+
+API
+URL:
+  http://35.232.18.220:5000/detection
+
+Method: 
+  POST
+
+Header: 
+  Content-Type:application/json
+
+Request JSON body:
+  {
+	"image": "Content in Base64 format",
+	"name": "Image name"
+  }
+  
+Response JSON body:
+  {
+    "image": "Content in Base64 format",
+    "name": "Image name"
+    "content": "Array of the predicted classes and probability percentage"
+    [
+      {
+        "name": "predicted class",
+        "percentage_probability": float
+      }
+    ]
+  }
